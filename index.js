@@ -13,3 +13,7 @@ res.render('index')
 const server = http.listen(8080, ()=>
 console.log('Hola desdee el chat node, escuchando desde 3300')
 );
+
+io.on('connection', (socket)=>{
+    console.log("New Client Connected")
+});
