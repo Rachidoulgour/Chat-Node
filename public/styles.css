@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 16px Helvetica, Arial;
+}
+.titulo{
+    background-color: black;
+}
+h2{
+    margin: 10px 0;
+    padding: 10px 25px;
+    color: white;
+}
+#username_input input{
+    margin: 0 10px;
+    padding: 10px;
+}
+#username_input button{
+    width: 9%;
+    background: rgb(130, 224, 255);
+    border: none;
+    padding: 10px;
+}
+#username_input button:hover{
+    background: rgb(9, 42, 73);
+    color: rgb(130, 224, 255);
+    transition: ease .3s;
+}
+form{
+    background: #fff;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+form input{
+    border: solid 1px;
+    padding: 10px;
+    width: 85%;
+    margin-right: .5%;
+}
+form button{
+    width: 9%;
+    background: rgb(130, 224, 255);
+    border: none;
+    padding: 10px;
+}
+form button:hover{
+    background: rgb(9, 42, 73);
+    color: rgb(130, 224, 255);
+    transition: ease .3s;
+}
+#chat{
+    margin: 0;
+    padding: 0;
+}
+.message-sended{
+    padding: 5px 10px;
+}
+.message-sended:nth-child(odd){
+    background: #eee;
+}

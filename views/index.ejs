@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Chat With Nodejs</title>
 </head>
 <body>
-    <h2>Welcome to Chat Room</h2>
-    <input type="text" name="message">
-    <button>Send</button>
+    <div class="titulo">
+        <h2>Welcome to Chat Room</h2>
+    </div>
+    
+    <div id="username_input">
+        <input type="text" name="user" id="username">
+        <button id="register_username">Register</button>
+    </div>
+   
+        <div id="chat">
+            <div id="typing">
+    
+            </div>
+        </div>
+    <form>
+        <div id="message_input">
+            <input type="text" name="message" id="message">
+            <button id="send_message">Send</button>
+        </div>
+    </form>
+    
+    
 
 
     <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
